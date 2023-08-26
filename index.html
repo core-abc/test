@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style-sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom fonts -->
+        <!-- Google Fonts 'Cormorant Garamond' + 'Inter'-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <title>Le Tour De Paris</title>
+</head>
+<body>
+    <!-- Pages Container -->
+    <main>
+        <!-- Section One - Home -->
+        <section class="section-one" id="home">
+            <!-- Hero Image + Title -->
+            <header class="header-container">
+                <h1>Le Tour De Paris</h1>
+            </header>
+                <h1 class="mobile-title">Le Tour De Paris</h1>
+            <!-- Subheading -->
+            <article class="sub-heading">
+                <h2>Through the eyes of the <span class="last-word">protagonist.</span></h2>
+            </article>
+            <!-- Scroll-Action-Button -->
+            <div class="scroll-action-btn-container">
+                <a class="scroll-action-btn-color-black" href="#description">Description</a>
+                <img class="scroll-icon-color-black" src="./assets/icons/double_arr_down.svg" alt="">
+            </div>
+        </section>
+        <!-- Section Two - Project description -->
+        <section class="section-two" id="description">
+            <!-- Page Contents -->
+            <div class="project-description-main-contents-wrapper">
+                <!-- Left Column -->
+                <div class="s2-col-left">
+                    <div class="s2-col-left-text-wrapper">
+                        <h3>Description</h3>
+                        <p> Le Tour De Paris takes you on a whimsical photographic journey,
+                            captured on black and white film, as it playfully documents the
+                            Gilet Jaunes manifestations in the City of Lights. With a touch of
+                            humor, this captivating series unveils a tapestry of moments,
+                            exposing the raw emotions, resilience, and the absurdity of police
+                            violence, offering a satirical social commentary that leaves you
+                            both thoughtful and entertained.</p>    
+                    </div>
+                </div>
+                <!-- Right Column -->
+                <div class="s2-col-right">
+                    <div class="s2-col-right-img1-container"></div>
+                    <div class="s2-col-right-img2-container"></div>
+                </div>
+            </div>
+            <!-- Scroll-Action-Button -->
+            <div class="scroll-action-btn-container">
+                <a class="scroll-action-btn-color-black" href="#gallery">Gallery</a>
+                <img class="scroll-icon-color-black" src="./assets/icons/double_arr_down.svg" alt="">
+            </div>            
+        </section>
+        <!-- Section Three - Project Gallery -->
+        <section class="section-three" id="gallery">
+            <!-- Mobile Portrait Call to Action (Only visible in Portrait Mode on Mobile Device) -->
+            <div class="mobile-portrait-rotate-action-call-container">
+                <img src="./assets/icons/screen_rotate.svg" alt="Please Rotate Screen">
+                <p>Please rotate your device <br> to landscape oriantation.</p>
+            </div>
+            <!-- Gallery -->
+            <div class="gallery-wrapper">
+                <div class="gallery-container">
+                    <!--Previous Img Btn-->
+                    <button class="arrLeft">
+                    </button>
+                    <!-- Image Container -->
+                    <div class="img-container-wrapper">
+                        <img src="./assets/img_01.jpg" alt="img1" id="gallery-img-container">
+                    </div>
+                    <!--Next Img Btn-->
+                    <button class="arrRight">
+                    </button>  
+                                  
+                </div>
+                <div class="image-captions">
+                    <p>Captions go here</p>
+                </div>    
+            </div>
+            <!-- Scroll-Action-Button -->
+            <div class="scroll-action-btn-container">
+                <a class="scroll-action-btn-color-white" href="#coffeetablebook">Shop</a>
+                <img class="scroll-icon-color-white" src="./assets/icons/double_arr_down.svg" alt="">
+            </div>             
+        </section>
+        <!-- Section Four - Boutique / Coffee Table Book -->
+        <section class="section-four" id="coffeetablebook">
+        <!--Column Left-->
+        <div class="s4-col-left">
+
+            <div class="s4-product-img-wrapper">
+                <span class="s4-product-img-container">
+                
+                </span>
+            </div>
+            <nav class="nav-wrapper">
+                <ul class="nav-container-dark">
+                    <li><a href="" class="nav-item-active-dark">Coffee Table Book</a></li>
+                    <li><a href="">Prints</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <!--Column Right-->
+        <div class="s4-col-right">
+            <span class="s4-product-img-mobile"></span>
+            <div class="s4-product-desc-container">
+                <h3>Le Tour De Paris</h3>
+                <h4>Coffee Table Book</h4>
+                <p>Visit our shop to get your copy of <br> "Le Tour De Paris" Coffee table book.</p>
+                <div class="button-wrapper">
+                    <button class="btn-white">Visit Shop</button>
+                </div>
+            </div>
+            <!-- Scroll-Action-Button -->
+            <div class="scroll-action-btn-container">
+                <a class="scroll-action-btn-color-white" href="#prints">Prints</a>
+                <img class="scroll-icon-color-white" src="./assets/icons/double_arr_down.svg" alt="">
+            </div>             
+        </div>   
+        </section>
+        <!-- Section Five - Boutique / Prints -->
+        <section class="section-five" id="prints">
+        <!--Column Left-->
+        <div class="s5-col-left">
+            <div class="s5-product-img-container">
+                
+            </div>
+            <nav class="nav-wrapper">
+                <ul class="nav-container-light">
+                    <li><a href="">Coffee Table Book</a></li>
+                    <li><a href="">Prints</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <!--Column Right-->
+        <div class="s5-col-right">
+            <span class="s5-product-img-mobile"></span>
+            <div class="s5-product-desc-container">
+                <h3>Le Tour De Paris</h3>
+                <h4>Prints</h4>
+                <p>For Prints to decorate your home please visit</p>
+                <div class="button-wrapper">
+                    <button class="btn-black">Visit Shop</button>
+                </div>
+            </div>
+            <!-- Scroll-Action-Button -->
+            <div class="scroll-action-btn-container">
+                <a class="scroll-action-btn-color-black" href="#contactpage">Contact</a>
+                <img class="scroll-icon-color-black" src="./assets/icons/double_arr_down.svg" alt="">
+            </div>             
+        </div>             
+        </section>
+        <!-- Section Six - Contact -->
+        <section class="section-six" id="contactpage">
+            <div class="page-title-container">
+                <h3>Contact</h3>
+                <p>Please fill in the contact for below to reach out</p>
+            </div>
+            <div class="form-container">
+                <form class="contact-form-container" action="https://formsubmit.co/your@email.com" method="POST">
+                    <input type="text" placeholder="Your name" name="name" required>
+                    <input type="text" placeholder="Your email" name="email" required>
+                    <textarea name="message" placeholder="Your message" rows="10" required></textarea>
+                    <button class="btn-black" type="submit">Submit</button>
+               </form> 
+            </div>
+            <nav class="nav-wrapper s6">
+                <ul class="nav-container s6">
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Coffee Table Book</a></li>
+                    <li><a href="">Prints</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <footer class="footer-container">
+                <p>All Rights Reserved &copy;</p>
+            </footer>
+        </section>                                        
+    </main>
+    <!-- Java Script -->
+    <script src="app.js"></script>
+</body>
+</html>
